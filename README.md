@@ -15,6 +15,40 @@ This module is based on the verified assets specified in the official Fuel Netwo
 -   Fuel Ignition Mainnet
 -   Fuel Testnet
 
+## Supported Assets
+
+This module provides constants for the following assets on Fuel Ignition Mainnet:
+
+- ETH
+- FUEL
+- WETH
+- WEETH
+- RSETH
+- RETH
+- WBETH
+- RSTETH
+- AMPHRETH
+- MANTA_MBTC
+- MANTA_METH
+- MANTA_MUSD
+- PUMPBTC
+- FBTC
+- SOLVBTC
+- SOLVBTC_BBN
+- MANTLE_METH
+- SDAI
+- USDT
+- USDC
+- USDE
+- SUSDE
+- RSUSDE
+- WSTETH
+- EZETH
+- PZETH
+- RE7LRT
+- STEAKLRT
+- USDF
+
 ## Usage & Examples
 
 The primary way to utilize this module is by importing and using the provided constants and functions within your Sway contracts or scripts.
@@ -28,6 +62,13 @@ use std::asset_id::AssetId;
 fn foo() {
     assert(AssetId::default() == ETH_ASSET_ID);
 }
+```
+
+For each asset there is the following constants:
+```sway
+X_ASSET_ID:AssetId
+X_CONTRACT_ID:ContractId
+X_DECIMALS:u64
 ```
 
 ## Installation
