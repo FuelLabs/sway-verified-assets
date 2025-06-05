@@ -1,6 +1,7 @@
 [[package]]
 name = "std"
-source = "git+https://github.com/fuellabs/sway?tag=v0.68.4#1fb61fdc42054109c54a57544b9aeb88afd3cae8"
+version = "0.68.7"
+source = "registry+std?0.68.7#QmXtvuy4DJqoVfTmMSygtwh5Zx9JvWsKfx2p83pXEGnZrC!"
 
 [[package]]
 name = "verified-assets"

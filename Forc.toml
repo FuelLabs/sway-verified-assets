@@ -3,5 +3,6 @@ authors = ["SilentCicero"]
 entry = "lib.sw"
 license = "Apache-2.0"
 name = "verified-assets"
+version = "0.0.0"
 
 [dependencies]
